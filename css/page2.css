@@ -1,0 +1,197 @@
+@import url(base.css);
+body {
+  background: #F7F7F7; }
+
+header {
+  width: 100%;
+  height: 0.87rem;
+  background: #131313;
+  box-sizing: border-box;
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between; }
+  header .btn {
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.34rem; }
+  header .btn1 {
+    float: left; }
+    header .btn1 i.icon-sousuo1 {
+      display: block;
+      color: #fff;
+      font-size: 0.2rem; }
+  header .btn2 {
+    float: right; }
+    header .btn2 i.icon-yonghu {
+      display: block;
+      float: right;
+      color: #fff;
+      font-size: 0.22rem; }
+  header .nav {
+    width: 1.72rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around; }
+    header .nav a {
+      display: block;
+      width: 50%;
+      height: 100%;
+      line-height: 0.87rem;
+      font-size: 0.2rem;
+      position: relative; }
+    header .nav .tj {
+      color: #6A6A6A; }
+    header .nav .jn {
+      color: #fff;
+      text-align: right; }
+    header .nav .jn::before {
+      content: '';
+      display: block;
+      width: 0.2rem;
+      height: 0.04rem;
+      position: absolute;
+      bottom: 0.04rem;
+      right: 0.08rem;
+      background: #FE3137; }
+
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0.87rem;
+  bottom: 0.87rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+  #wrapper #scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0); }
+    #wrapper #scroller .download {
+      width: 100%;
+      height: 0.9rem;
+      margin: 0.15rem 0;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 0 0.35rem; }
+      #wrapper #scroller .download a {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%; }
+        #wrapper #scroller .download a .nav {
+          display: flex; }
+          #wrapper #scroller .download a .nav img {
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.42rem;
+            margin-top: 0.24rem; }
+          #wrapper #scroller .download a .nav .s1 {
+            font-size: 0.2rem;
+            color: #333333;
+            line-height: 0.9rem;
+            padding-left: 0.4rem; }
+        #wrapper #scroller .download a .more {
+          display: flex; }
+          #wrapper #scroller .download a .more .s2 {
+            font-size: 0.18rem;
+            color: #9B9B9B;
+            line-height: 0.9rem;
+            float: right;
+            padding-right: 0.24rem; }
+          #wrapper #scroller .download a .more i.icon-more {
+            line-height: 0.92rem;
+            font-size: 0.18rem;
+            font-weight: bold;
+            color: #ED323C; }
+    #wrapper #scroller .content {
+      width: 100%;
+      background: #fff; }
+      #wrapper #scroller .content li {
+        width: 100%;
+        height: 1.23rem;
+        box-sizing: border-box;
+        padding: 0 0.35rem 0 0.33rem;
+        border-bottom: 0.01rem solid #ECECEC; }
+      #wrapper #scroller .content .list {
+        width: 100%; }
+        #wrapper #scroller .content .list a {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          height: 100%; }
+          #wrapper #scroller .content .list a .pic {
+            display: flex; }
+            #wrapper #scroller .content .list a .pic img {
+              display: inline-block;
+              width: 0.6rem;
+              height: 0.78rem;
+              margin-top: 0.21rem; }
+            #wrapper #scroller .content .list a .pic span {
+              font-size: 0.2rem;
+              color: #333333;
+              line-height: 1.23rem;
+              padding-left: 0.24rem; }
+          #wrapper #scroller .content .list a .more {
+            display: flex; }
+            #wrapper #scroller .content .list a .more i.icon-more {
+              line-height: 1.23rem;
+              font-size: 0.18rem;
+              font-weight: bold;
+              color: #ED323C; }
+      #wrapper #scroller .content .list1 {
+        width: 100%; }
+        #wrapper #scroller .content .list1 a {
+          width: 100%;
+          height: 100%; }
+          #wrapper #scroller .content .list1 a .pic {
+            float: left;
+            width: 50%;
+            height: 100%; }
+            #wrapper #scroller .content .list1 a .pic img {
+              float: left;
+              width: 0.6rem;
+              height: 0.9rem;
+              margin-top: 0.21rem; }
+            #wrapper #scroller .content .list1 a .pic .s1 {
+              width: 100%;
+              font-size: 0.2rem;
+              color: #333333;
+              line-height: 0.35rem;
+              padding-left: 0.84rem;
+              padding-top: 0.3rem; }
+            #wrapper #scroller .content .list1 a .pic .s2 {
+              width: 100%;
+              font-size: 0.16rem;
+              color: #9B9B9B;
+              padding-left: 0.84rem; }
+          #wrapper #scroller .content .list1 a .more {
+            float: right;
+            width: 50%;
+            height: 100%; }
+            #wrapper #scroller .content .list1 a .more span {
+              float: right;
+              font-size: 0.18rem;
+              color: #9B9B9B;
+              line-height: 1.23rem;
+              padding-right: 0.24rem; }
+            #wrapper #scroller .content .list1 a .more i.icon-more {
+              float: right;
+              line-height: 1.23rem;
+              font-size: 0.18rem;
+              font-weight: bold;
+              color: #ED323C; }

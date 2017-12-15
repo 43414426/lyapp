@@ -1,0 +1,80 @@
+@import url(base.css);
+body {
+    background: #F7F7F7; }
+
+header {
+    width: 100%;
+    height: 0.87rem;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+    display: flex;
+    justify-content: space-between; }
+header .btn {
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.34rem; }
+header .btn1 {
+    float: left; }
+header .btn1 i.icon-back {
+    display: block;
+    color: #E2231A;
+    font-size: 0.22rem;
+    font-weight: bold; }
+header .btn2 {
+    float: right; }
+header .btn2 i.icon-sangedian2 {
+    display: block;
+    float: right;
+    color: #fff;
+    font-size: 0.22rem; }
+header .nav {
+    width: 1.72rem;
+    height: 100%;
+    font-size: 0.24rem;
+    color: #000;
+    text-align: center;
+    line-height: 0.87rem; }
+
+
+.nav{
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem 0.18rem;
+    box-sizing: border-box;
+}
+
+.nav div{
+    float: left;
+    width: 2.42rem;
+    height: 2.70rem;
+}
+.nav div:nth-child(1),.nav div:nth-child(3){
+    margin-right: 0.18rem;
+    margin-bottom: 0.26rem;
+}
+.nav div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.nav div a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

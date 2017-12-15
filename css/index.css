@@ -1,0 +1,165 @@
+@import url(base.css);
+body {
+  background: #F7F7F7; }
+
+header {
+  width: 100%;
+  height: 0.87rem;
+  background: #131313;
+  box-sizing: border-box;
+  padding: 0 0.3rem;
+  display: flex;
+  justify-content: space-between; }
+  header .btn {
+    display: block;
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-top: 0.34rem; }
+  header .btn1 {
+    float: left; }
+    header .btn1 i.icon-sousuo1 {
+      display: block;
+      color: #fff;
+      font-size: 0.2rem; }
+  header .btn2 {
+    float: right; }
+    header .btn2 i.icon-yonghu {
+      display: block;
+      float: right;
+      color: #fff;
+      font-size: 0.22rem; }
+  header .nav {
+    width: 1.72rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around; }
+    header .nav a {
+      display: block;
+      width: 50%;
+      height: 100%;
+      line-height: 0.87rem;
+      font-size: 0.2rem;
+      position: relative; }
+    header .nav .tj {
+      color: #fff; }
+    header .nav .tj::after {
+      content: '';
+      display: block;
+      width: 0.2rem;
+      height: 0.04rem;
+      position: absolute;
+      bottom: 0.04rem;
+      left: 0.08rem;
+      background: #FE3137; }
+    header .nav .jn {
+      color: #6A6A6A;
+      text-align: right; }
+
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0.87rem;
+  bottom: 0.87rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+  #wrapper #scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0); }
+    #wrapper #scroller .swiper-container {
+      height: 2.16rem; }
+      #wrapper #scroller .swiper-container .swiper-slide {
+        height: 100%;
+        width: 100%;
+        float: left; }
+        #wrapper #scroller .swiper-container .swiper-slide a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          #wrapper #scroller .swiper-container .swiper-slide a img {
+            display: block;
+            width: 100%;
+            height: 100%; }
+    #wrapper #scroller .ad {
+      width: 100%;
+      height: 1.4rem;
+      margin: 15px 0;
+      background: #fff;
+      border-top: 0.01rem solid #EAEAEA;
+      border-bottom: 0.01rem solid #EAEAEA; }
+      #wrapper #scroller .ad .ad_son {
+        display: block;
+        background: #fff;
+        width: 50%;
+        height: 100%;
+        float: left;
+        color: #000;
+        box-sizing: border-box;
+        padding-left: 0.23rem;
+        position: relative; }
+        #wrapper #scroller .ad .ad_son h1 {
+          font-size: 0.22rem;
+          font-weight: bold;
+          color: #393939;
+          margin-top: 0.26rem; }
+        #wrapper #scroller .ad .ad_son p {
+          color: #A2A2A2;
+          font-size: 0.16rem; }
+        #wrapper #scroller .ad .ad_son img {
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: block;
+          height: 100%; }
+
+.content {
+  width: 100%; }
+  .content .item {
+    width: 100%;
+    margin-bottom: 0.15rem; }
+    .content .item .top {
+      height: 2.17rem;
+      width: 100%; }
+      .content .item .top a, .content .item .top img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .content .item .bot {
+      width: 100%;
+      height: 1.6rem;
+      box-sizing: border-box;
+      padding: 0 0.24rem;
+      background: #fff;
+      overflow: hidden; }
+      .content .item .bot .title {
+        font-size: 0.22rem;
+        color: #000;
+        font-weight: bold;
+        margin-top: 0.25rem; }
+      .content .item .bot .nav {
+        font-size: 0.2rem;
+        color: #3E3E3E;
+        line-height: 0.4rem; }
+      .content .item .bot .data {
+        float: left;
+        font-size: 0.16rem;
+        color: #999999; }
+      .content .item .bot .where {
+        float: right;
+        font-size: 0.16rem;
+        color: #999999; }
